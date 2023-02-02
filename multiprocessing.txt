@@ -1,0 +1,128 @@
+Script started on 2023-02-02 12:38:53+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ rm -r prpa[3Pcd Reporm -r Repo/ll[Kcd .. [4Pllrm multiprocessing.txt multiprocessing_01.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl[Kcd Repo/ll[Kcd Repo[K[1Pllcd Descargas/[Kllcd Descargas/ll[Kcd ..[3Pllcd Descargas/ll[Kcd ..[3Pllcd Descargas/ll[Kcd Descargas/ll[Kcd Repoll[Kcd Repo/l[Krm multiprocessing.txt multiprocessing_01.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd .. [4Pllrm -r Repo/[4Pcd Reporm -r prpa[Krm -r prpa[3Pcd Reporm -r Repo/ll[Kcd .. [4Pllrm multiprocessing.txt multiprocessing_01.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl[Krm multiprocessing.txt multiprocessing_01.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll[Kcd .. [4Pllrm -r Repo/[K[K[K[K[K[K[K[K[K[K[Kgitr c[K[K[K clone [7mgit@github.com:JavierAbollado/prpa.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:JavierAbollado/prpa.git
+[?2004lClonando en 'prpa'...
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+Recibiendo objetos:  20% (1/5)Recibiendo objetos:  40% (2/5)Recibiendo objetos:  60% (3/5)Recibiendo objetos:  80% (4/5)Recibiendo objetos: 100% (5/5)Recibiendo objetos: 100% (5/5), listo.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0[K
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ git status
+[?2004lfatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ cd pa[Krapa
+[?2004lbash: cd: prapa: No existe el archivo o el directorio
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ cd prapa[C[1Ppa
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ cd prpaapagit status
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ emacs programa1.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ emacs programa1.py[1P.py2.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ emacs programa2.py[C[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py2.py_.pyp.pyr.pyo.pyc.pye.pys.pyo.pys.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ emacs 2_procesos.py[1P_procesos.py3_procesos.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ ls
+[?2004l2_procesos.py  3_procesos.py  programa1.py  programa2.py
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ ls[K[Kmv programa1.py 0_processo[K[Kos.py[1@-[1@v[1@ 
+[?2004lrenamed 'programa1.py' -> '0_procesos.py'
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ mv -v programa1.py 0_procesos.py[C[1P[1@2[C[C[C[C[C[1P_procesos.py1_procesos.py
+[?2004lrenamed 'programa2.py' -> '1_procesos.py'
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ ls
+[?2004l0_procesos.py  1_procesos.py  2_procesos.py  3_procesos.py
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ python 0_procesos.py-0_procesos.pyi0_procesos.py 0_procesos.py
+[?2004lOrden «python» no encontrada. Quizá quiso decir:
+  la orden «python3» del paquete deb «python3»
+  la orden «python» del paquete deb «python-is-python3»
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ python -i 0_procesos.py[1@3
+[?2004lfin
+hola 0
+hola 0
+>>> hola 1
+hola 1
+hola 2
+hola 2
+hola 3
+hola 3
+hola 4
+hola 4
+quit()
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ git add 0_procesoso[K.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ git add 0_procesos.py[C[1P_procesos.py1_procesos.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ git add 1_procesos.py[1P_procesos.py2_procesos.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ git add 2_procesos.py[1P_procesos.py3_procesos.py
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ git commit -m "Copm[K[K[Kambios en clase"
+[?2004lIdentidad del autor desconocido
+
+*** Por favor cuéntame quién eres.
+
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula422.(none)')
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ cd ..
+[?2004l[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ lsç[K 
+[?2004l[0m[01;34mDescargas[0m            [01;34mMúsica[0m      sesion.txt                     Untitled4.ipynb
+[01;34mDocumentos[0m           os          [01;34msnap[0m                           Untitled5.ipynb
+[01;34mEscritorio[0m           [01;34mPlantillas[0m  [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  Untitled.ipynb
+[01;34mImágenes[0m             [01;34mprpa[0m        Untitled1.ipynb                [01;34mvenv[0m
+[01;34mirma[0m                 [01;34mPúblico[0m     Untitled2.ipynb                [01;34mVídeos[0m
+multiprocessing.txt  [40;31;01mpyspark[0m     Untitled3.ipynb
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ ls [C[C - a 
+[?2004l[0m[01;34m.[0m                   [01;34mirma[0m                 sesion.txt
+[01;34m..[0m                  [01;34m.julia[0m               [01;34msnap[0m
+.bash_history       [01;34m.jupyter[0m             [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m
+.bash_logout        [01;34m.keras[0m               [01;34m.ssh[0m
+.bashrc             [01;34m.local[0m               [01;34m.theano[0m
+.bashrc~            [01;34m.mongodb[0m             Untitled1.ipynb
+[01;34m.cache[0m              .mongorc.js          Untitled2.ipynb
+[01;34m.config[0m             multiprocessing.txt  Untitled3.ipynb
+.dbshell            [01;34mMúsica[0m               Untitled4.ipynb
+[01;34mDescargas[0m           os                   Untitled5.ipynb
+.dmrc               [01;34m.pki[0m                 Untitled.ipynb
+[01;34mDocumentos[0m          [01;34mPlantillas[0m           [01;34mvenv[0m
+[01;34m.emacs.d[0m            .profile             [01;34mVídeos[0m
+[01;34mEscritorio[0m          [01;34mprpa[0m                 .Xauthority
+[01;34m.ghc[0m                [01;34mPúblico[0m              [01;34m.xournal[0m
+[01;34m.gnupg[0m              [40;31;01mpyspark[0m              .xsession-errors
+[01;34mImágenes[0m            .python_history      .xsession-errors.old
+[01;34m.ipynb_checkpoints[0m  [01;34m.sage[0m
+[01;34m.ipython[0m            .scala_history
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ hsmod 600 [1P[1@c[C[C[C[C[C[C[C[C[C~/.ssh/id_r[Ksa[K[Krsa
+[?2004lOrden «csmod» no encontrada. Quizá quiso decir:
+  la orden «lsmod» del paquete deb «kmod (29-1ubuntu1)»
+  la orden «chmod» del paquete deb «coreutils (8.32-4.1ubuntu1)»
+Pruebe con: apt install <nombre del paquete deb>
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ csmod 600 ~/.ssh/id_rsa[1P[1@h
+[?2004l[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ eval ""$" "[1P"("s"s"h"-"a"g"e"n"t" "-"s")"
+[?2004lAgent pid 7668
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ eval "$(ssh-agent -s)"[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P -s)"[1P-s)"[1Ps)"[1P)"[1P"[Kssh-add chmod 600 ~/.ssh/id_rsa[1P ~/.ssh/id_rsa[1P ~/.ssh/id_rsa[1P ~/.ssh/id_rsa[1P~/.ssh/id_rsa[1P ~/.ssh/id_rsa[1P ~/.ssh/id_rsa[1P ~/.ssh/id_rsa[1P ~/.ssh/id_rsa[1P ~/.ssh/id_rsas ~/.ssh/id_rsah ~/.ssh/id_rsah ~/.ssh/id_rsa- ~/.ssh/id_rsaa ~/.ssh/id_rsad ~/.ssh/id_rsad ~/.ssh/id_rsa[C ~/.ssh/id_rsa[C[1P~/.ssh/id_rsa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lOrden «shh-add» no encontrada. Quizá quiso decir:
+  la orden «ssh-add» del paquete deb «openssh-client (1:8.9p1-3ubuntu0.1)»
+Pruebe con: apt install <nombre del paquete deb>
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ shh-add ~/.ssh/id_rsa[C[C[1P[1@s
+[?2004lIdentity added: /home/alumno/.ssh/id_rsa (alumno@aula420)
+[?2004h]0;alumno@aula422: ~[01;32malumno@aula422[00m:[01;34m~[00m$ ssh-add ~/.ssh/id_rsa[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd prpa
+[?2004l[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ cd prpassh-add ~/.ssh/id_rsah[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Psh-add chmod 600 ~/.ssh/id_rsas[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a [K[Kcd ..git commit -m "Cambios en clase"[11Padd 3_procesos.pycommit -m "Cambios en clase"
+[?2004lIdentidad del autor desconocido
+
+*** Por favor cuéntame quién eres.
+
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+fatal: no es posible auto-detectar la dirección de correo (se obtuvo 'alumno@aula422.(none)')
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ ssh [K-[K -T git@github.com
+[?2004lHi JavierAbollado! You've successfully authenticated, but GitHub does not provide shell access.
+[?2004h]0;alumno@aula422: ~/prpa[01;32malumno@aula422[00m:[01;34m~/prpa[00m$ [?2004l
+exit
+
+Script done on 2023-02-02 13:17:26+01:00 [COMMAND_EXIT_CODE="1"]
